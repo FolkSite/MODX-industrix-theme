@@ -1,0 +1,957 @@
+<?php return array (
+  'unique_key' => 'category',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => 
+  array (
+    'Chunks' => 
+    array (
+      '35e68340037a9d810e0b2e06911619fe' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"custom_industrix","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"\\/*Global*\\/\\nbody{[[++industrix_primary_font]] background-color: #[[++industrix_neutral_secondary]]; color: #000;}\\na{color: #[[++industrix_accent_primary]];} \\na:hover{color: #[[++industrix_accent_secondary]];}\\n#logo h5, article header h1, article h2, article h3, .secondary-font{[[++industrix_secondary_font]]}\\n.mp-4 .gutter, .mp-enlarge, .gallery--container .mp-5{border:1px solid #[[++industrix_neutral_primary]];}\\n.featured-grid .mp-enlarge{border:2px solid #[[++industrix_accent_primary]];}\\n\\n.accent-primary{color: #[[++industrix_accent_primary]];}  .accent-secondary, article h2{color: #[[++industrix_accent_secondary]];} \\n.dark-primary{color: #[[++industrix_dark_primary]];}  .dark-secondary{color: #[[++industrix_dark_secondary]];} \\n.neutral-primary{color: #[[++industrix_neutral_primary]];}  .neutral-secondary{color: #[[++industrix_neutral_secondary]];} \\n.bg-dark-primary{background-color: #[[++industrix_dark_primary]];} .bg-dark-secondary{background-color: #[[++industrix_dark_secondary]];}\\n.bg-accent-primary{background-color: #[[++industrix_accent_primary]];} .bg-accent-secondary{background-color: #[[++industrix_accent_secondary]];}\\n.bg-neutral-primary{background-color: #[[++industrix_neutral_primary]];} .bg-neutral-secondary{background-color: #[[++industrix_neutral_secondary]];}\\n.dark-pattern{background-image: url(\'[[++industrix_dark_pattern]]\'); background-repeat:repeat;}\\n\\nnav{background: #[[++industrix_accent_secondary]]; background: -moz-linear-gradient(top, #[[++industrix_accent_primary]] 0%, #[[++industrix_accent_secondary]] 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#[[++industrix_accent_primary]]), color-stop(100%,#[[++industrix_accent_secondary]])); background: -webkit-linear-gradient(top, #[[++industrix_accent_primary]] 0%,#[[++industrix_accent_secondary]] 100%); background: -ms-linear-gradient(top, #[[++industrix_accent_primary]] 0%,#[[++industrix_accent_secondary]] 100%);  background: linear-gradient(to bottom, #[[++industrix_accent_primary]] 0%,#[[++industrix_accent_secondary]] 100%); }\\nnav ul li a, .nav-more-icon{color: #000;} nav ul li:hover > a, .nav-more-icon:hover{color: #FFF;}\\nnav ul > li:hover{background-color: rgba(0,0,0,0.5);}\\nbutton#navToggle{background-color: #[[++industrix_accent_primary]]; [[++industrix_secondary_font]]}\\nnav ul li ul{background-color: #[[++industrix_accent_secondary]];}\\nnav ul > li{border-left:1px solid rgba(255,255,255,0.2); border-right:1px solid rgba(0,0,0,0.2);}\\nnav ul li:first-of-type{border-left:none;}\\n.toc li a:hover{color:#[[++industrix_accent_primary]];}\\n\\narticle{background-color:#FFF; border-color: #[[++industrix_dark_secondary]];}\\n.aside--feature{border-bottom: 1px solid #[[++industrix_dark_primary]];} .aside--feature > img{border: 1px solid #[[++industrix_dark_primary]];}\\nhr{border-color: #[[++industrix_dark_secondary]];}\\n\\nblockquote{border-left: 4px solid #[[++industrix_accent_primary]]; color: #[[++industrix_neutral_primary]];}\\n.input:focus, .textarea:focus, .select:focus {border-color: #[[++industrix_accent_primary]]; background-color: #f2f2f2;}\\n.input, .textarea, .select {background-color: #f7f7f7;border-color: #[[++industrix_neutral_primary]];}\\n.form-button{background-color: #[[++industrix_accent_primary]];} .form-button:hover{background-color: #[[++industrix_accent_secondary]];}\\n.error{color:#[[++industrix_accent_primary]]; display:block;}","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"\\/*Global*\\/\\nbody{[[++industrix_primary_font]] background-color: #[[++industrix_neutral_secondary]]; color: #000;}\\na{color: #[[++industrix_accent_primary]];} \\na:hover{color: #[[++industrix_accent_secondary]];}\\n#logo h5, article header h1, article h2, article h3, .secondary-font{[[++industrix_secondary_font]]}\\n.mp-4 .gutter, .mp-enlarge, .gallery--container .mp-5{border:1px solid #[[++industrix_neutral_primary]];}\\n.featured-grid .mp-enlarge{border:2px solid #[[++industrix_accent_primary]];}\\n\\n.accent-primary{color: #[[++industrix_accent_primary]];}  .accent-secondary, article h2{color: #[[++industrix_accent_secondary]];} \\n.dark-primary{color: #[[++industrix_dark_primary]];}  .dark-secondary{color: #[[++industrix_dark_secondary]];} \\n.neutral-primary{color: #[[++industrix_neutral_primary]];}  .neutral-secondary{color: #[[++industrix_neutral_secondary]];} \\n.bg-dark-primary{background-color: #[[++industrix_dark_primary]];} .bg-dark-secondary{background-color: #[[++industrix_dark_secondary]];}\\n.bg-accent-primary{background-color: #[[++industrix_accent_primary]];} .bg-accent-secondary{background-color: #[[++industrix_accent_secondary]];}\\n.bg-neutral-primary{background-color: #[[++industrix_neutral_primary]];} .bg-neutral-secondary{background-color: #[[++industrix_neutral_secondary]];}\\n.dark-pattern{background-image: url(\'[[++industrix_dark_pattern]]\'); background-repeat:repeat;}\\n\\nnav{background: #[[++industrix_accent_secondary]]; background: -moz-linear-gradient(top, #[[++industrix_accent_primary]] 0%, #[[++industrix_accent_secondary]] 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#[[++industrix_accent_primary]]), color-stop(100%,#[[++industrix_accent_secondary]])); background: -webkit-linear-gradient(top, #[[++industrix_accent_primary]] 0%,#[[++industrix_accent_secondary]] 100%); background: -ms-linear-gradient(top, #[[++industrix_accent_primary]] 0%,#[[++industrix_accent_secondary]] 100%);  background: linear-gradient(to bottom, #[[++industrix_accent_primary]] 0%,#[[++industrix_accent_secondary]] 100%); }\\nnav ul li a, .nav-more-icon{color: #000;} nav ul li:hover > a, .nav-more-icon:hover{color: #FFF;}\\nnav ul > li:hover{background-color: rgba(0,0,0,0.5);}\\nbutton#navToggle{background-color: #[[++industrix_accent_primary]]; [[++industrix_secondary_font]]}\\nnav ul li ul{background-color: #[[++industrix_accent_secondary]];}\\nnav ul > li{border-left:1px solid rgba(255,255,255,0.2); border-right:1px solid rgba(0,0,0,0.2);}\\nnav ul li:first-of-type{border-left:none;}\\n.toc li a:hover{color:#[[++industrix_accent_primary]];}\\n\\narticle{background-color:#FFF; border-color: #[[++industrix_dark_secondary]];}\\n.aside--feature{border-bottom: 1px solid #[[++industrix_dark_primary]];} .aside--feature > img{border: 1px solid #[[++industrix_dark_primary]];}\\nhr{border-color: #[[++industrix_dark_secondary]];}\\n\\nblockquote{border-left: 4px solid #[[++industrix_accent_primary]]; color: #[[++industrix_neutral_primary]];}\\n.input:focus, .textarea:focus, .select:focus {border-color: #[[++industrix_accent_primary]]; background-color: #f2f2f2;}\\n.input, .textarea, .select {background-color: #f7f7f7;border-color: #[[++industrix_neutral_primary]];}\\n.form-button{background-color: #[[++industrix_accent_primary]];} .form-button:hover{background-color: #[[++industrix_accent_secondary]];}\\n.error{color:#[[++industrix_accent_primary]]; display:block;}"}',
+        'guid' => '92b8bcbc22b680bd7be6b34b7dc1c3ef',
+        'native_key' => NULL,
+        'signature' => '60c6e0d070cbe21b6848fdd735881f1e',
+      ),
+    ),
+    'Snippets' => 
+    array (
+      '859d32965632fadd2eb113aa93524522' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modSnippet',
+        'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"GetTitleById","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"\\/\\/Usage:\\r\\/\\/[[!GetTitleById? &id=`[[*listbyparent]]`]]\\r\\r$output = \'\';\\r \\r$parentId = $modx->getOption(\'id\', $scriptProperties);;\\r \\r\\/* Get the parent object *\\/\\r$parentObj = $modx->getObject(\'modResource\', $parentId);\\r \\r\\/* If we have the parent,\\r   get and return the pagetitle *\\/\\r \\rif ($parentObj) {\\r    $output = $parentObj->get(\'pagetitle\');\\r}\\r \\rreturn $output;","locked":0,"properties":"a:0:{}","moduleguid":"","static":0,"static_file":"","content":"\\/\\/Usage:\\r\\/\\/[[!GetTitleById? &id=`[[*listbyparent]]`]]\\r\\r$output = \'\';\\r \\r$parentId = $modx->getOption(\'id\', $scriptProperties);;\\r \\r\\/* Get the parent object *\\/\\r$parentObj = $modx->getObject(\'modResource\', $parentId);\\r \\r\\/* If we have the parent,\\r   get and return the pagetitle *\\/\\r \\rif ($parentObj) {\\r    $output = $parentObj->get(\'pagetitle\');\\r}\\r \\rreturn $output;"}',
+        'guid' => '2c069dd3e41047b609d42eb58c1e1b55',
+        'native_key' => NULL,
+        'signature' => '335acaad79918b98d458db6237adb8d8',
+      ),
+    ),
+    'Children' => 
+    array (
+      'd0b5940b759794f7f1d809cdc59f10ad' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 
+        array (
+          0 => 'parent',
+          1 => 'category',
+        ),
+        'class' => 'modCategory',
+        'object' => '{"id":null,"parent":0,"category":"Features","rank":0}',
+        'guid' => '90ad0d11ab1c0ba94c0441d65049fb6a',
+        'native_key' => NULL,
+        'signature' => 'bf7668da72e4ffd9f23b17ae625700ab',
+        'related_objects' => 
+        array (
+          'Chunks' => 
+          array (
+            'a4e8774646ce4a16f7dfd695c7cca94f' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.feature_carousel_aside_industrix","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[[[*carousel_ids:is=``:then=`-`:else=``]]!getResources? \\r    &resources=`[[*carousel_ids:is=`default`:then=`[[++mxt.default_carousel]]`:else=`[[*carousel_ids]]`]]` \\r    &tpl=`tpl.feature_carousel_aside_industrix`\\r    &sortdir=`ASC` \\r    &includeContent=`1`\\r    &includeTVs=`1` &processTVs=`1` &tvPrefix=`tv.`\\r]]","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[[[*carousel_ids:is=``:then=`-`:else=``]]!getResources? \\r    &resources=`[[*carousel_ids:is=`default`:then=`[[++mxt.default_carousel]]`:else=`[[*carousel_ids]]`]]` \\r    &tpl=`tpl.feature_carousel_aside_industrix`\\r    &sortdir=`ASC` \\r    &includeContent=`1`\\r    &includeTVs=`1` &processTVs=`1` &tvPrefix=`tv.`\\r]]"}',
+              'guid' => '3508def77c1584e14729fbe35b527454',
+              'native_key' => NULL,
+              'signature' => 'b220e33f8053db1be1af8d7f04995247',
+            ),
+            'a9a75f662c9bc52a6c34c00a5b7cd954' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.feature_contact_form_industrix","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[!FormIt?\\r   &hooks=`spam,email`\\r   &emailTpl=`tpl.contactEmailTpl_industrix`\\r   &emailTo=`[[++emailsender]]`\\r   &emailUseFieldForSubject=`1`\\r   &validate=`name:required,email:email:required,phone:required,text:required:stripTags`\\r   &successMessage=`Email sent successfully.`\\r ]]\\r\\r[[!+fi.error_message:notempty=`<p class=\\"accent-primary\\">[[!+fi.error_message]]<\\/p>`]]\\r[[!+fi.successMessage:notempty=`<p class=\\"accent-primary\\">[[!+fi.successMessage]]<\\/p>`]]\\r\\r<form role=\\"form\\" id=\\"contactForm\\" action=\\"[[~[[*id]]]]#contactForm\\" method=\\"post\\">\\r<input type=\\"hidden\\" name=\\"nospam\\" value=\\"\\" \\/>\\r<div>\\r<label for=\\"name\\">Name: [[!+fi.error.name]]<\\/label>\\r<input type=\\"text\\" name=\\"name\\" id=\\"name\\" value=\\"[[!+fi.name]]\\" class=\\"input\\" \\/>\\r<\\/div>\\r<div>\\r<label for=\\"email\\">Email: [[!+fi.error.email]]<\\/label>\\r<input type=\\"text\\" name=\\"email\\" id=\\"email\\" value=\\"[[!+fi.email]]\\" class=\\"input\\" \\/>\\r<\\/div>\\r<div>\\r<label for=\\"email\\">Phone: [[!+fi.error.phone]]<\\/label>\\r<input type=\\"text\\" name=\\"phone\\" id=\\"phone\\" value=\\"[[!+fi.phone]]\\" class=\\"input\\" \\/>\\r<\\/div>\\r<div>\\r<label for=\\"subject\\">Reason for Contact: [[!+fi.error.subject]]<\\/label>\\r<input type=\\"text\\" name=\\"subject\\" id=\\"subject\\" value=\\"[[!+fi.subject]]\\" class=\\"input\\" \\/>\\r<\\/div>\\r<div>\\r<label for=\\"text\\">Message: [[!+fi.error.text]]<\\/label>\\r<textarea class=\\"textarea\\" name=\\"text\\" id=\\"text\\" value=\\"[[!+fi.text]]\\">[[!+fi.text]]<\\/textarea>\\r<\\/div>\\r<input type=\\"submit\\" value=\\"SEND\\" class=\\"form-button\\" \\/>\\r<\\/form>\\r","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[!FormIt?\\r   &hooks=`spam,email`\\r   &emailTpl=`tpl.contactEmailTpl_industrix`\\r   &emailTo=`[[++emailsender]]`\\r   &emailUseFieldForSubject=`1`\\r   &validate=`name:required,email:email:required,phone:required,text:required:stripTags`\\r   &successMessage=`Email sent successfully.`\\r ]]\\r\\r[[!+fi.error_message:notempty=`<p class=\\"accent-primary\\">[[!+fi.error_message]]<\\/p>`]]\\r[[!+fi.successMessage:notempty=`<p class=\\"accent-primary\\">[[!+fi.successMessage]]<\\/p>`]]\\r\\r<form role=\\"form\\" id=\\"contactForm\\" action=\\"[[~[[*id]]]]#contactForm\\" method=\\"post\\">\\r<input type=\\"hidden\\" name=\\"nospam\\" value=\\"\\" \\/>\\r<div>\\r<label for=\\"name\\">Name: [[!+fi.error.name]]<\\/label>\\r<input type=\\"text\\" name=\\"name\\" id=\\"name\\" value=\\"[[!+fi.name]]\\" class=\\"input\\" \\/>\\r<\\/div>\\r<div>\\r<label for=\\"email\\">Email: [[!+fi.error.email]]<\\/label>\\r<input type=\\"text\\" name=\\"email\\" id=\\"email\\" value=\\"[[!+fi.email]]\\" class=\\"input\\" \\/>\\r<\\/div>\\r<div>\\r<label for=\\"email\\">Phone: [[!+fi.error.phone]]<\\/label>\\r<input type=\\"text\\" name=\\"phone\\" id=\\"phone\\" value=\\"[[!+fi.phone]]\\" class=\\"input\\" \\/>\\r<\\/div>\\r<div>\\r<label for=\\"subject\\">Reason for Contact: [[!+fi.error.subject]]<\\/label>\\r<input type=\\"text\\" name=\\"subject\\" id=\\"subject\\" value=\\"[[!+fi.subject]]\\" class=\\"input\\" \\/>\\r<\\/div>\\r<div>\\r<label for=\\"text\\">Message: [[!+fi.error.text]]<\\/label>\\r<textarea class=\\"textarea\\" name=\\"text\\" id=\\"text\\" value=\\"[[!+fi.text]]\\">[[!+fi.text]]<\\/textarea>\\r<\\/div>\\r<input type=\\"submit\\" value=\\"SEND\\" class=\\"form-button\\" \\/>\\r<\\/form>\\r"}',
+              'guid' => '7e656c18c734e3b747b227850e14cdab',
+              'native_key' => NULL,
+              'signature' => 'dbfa1b9b87add3d604e75df37a67d2ac',
+            ),
+            '020e04a3a000cb352af162acbf80f6e9' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.feature_contact_quick_aside_industrix","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[!FormIt?\\r&hooks=`spam,email,redirect`\\r&emailTpl=`tpl.contactEmailTpl_industrix`\\r&emailTo=`[[++emailsender]]`\\r&emailUseFieldForSubject=`1`\\r&redirectTo=`11`\\r&validate=`name:required,\\r  email:email:required,\\r  subject:required,\\r  nospam:blank,\\r  text:required:stripTags`\\r ]]\\r\\r[[!+fi.error_message:notempty=`<p class=\\"error\\">[[!+fi.error_message]]<\\/p>`]]\\r\\r<form action=\\"[[~[[*id]]]]\\" method=\\"post\\" class=\\"contactForm\\">\\r<input type=\\"hidden\\" name=\\"nospam\\" value=\\"\\" \\/>\\r<div>\\r<label for=\\"name\\">Name: [[!+fi.error.name]]<\\/label>\\r<input type=\\"text\\" name=\\"name\\" id=\\"name\\" value=\\"[[!+fi.name]]\\" class=\\"input\\" \\/>\\r<\\/div>\\r<div>\\r<label for=\\"email\\">Email: [[!+fi.error.email]]<\\/label>\\r<input type=\\"text\\" name=\\"email\\" id=\\"email\\" value=\\"[[!+fi.email]]\\" class=\\"input\\" \\/>\\r<\\/div>\\r<div>\\r<label for=\\"subject\\">Reason for Contact: [[!+fi.error.subject]]<\\/label>\\r<input type=\\"text\\" name=\\"subject\\" id=\\"subject\\" value=\\"[[!+fi.subject]]\\" class=\\"input\\" \\/>\\r<\\/div>\\r<div>\\r<label for=\\"text\\">Message: [[!+fi.error.text]]<\\/label>\\r<textarea class=\\"textarea\\" name=\\"text\\" id=\\"text\\" value=\\"[[!+fi.text]]\\">[[!+fi.text]]<\\/textarea>\\r<\\/div>\\r<input type=\\"submit\\" value=\\"SEND\\" class=\\"form-button\\" \\/>\\r<\\/form>\\r","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[!FormIt?\\r&hooks=`spam,email,redirect`\\r&emailTpl=`tpl.contactEmailTpl_industrix`\\r&emailTo=`[[++emailsender]]`\\r&emailUseFieldForSubject=`1`\\r&redirectTo=`11`\\r&validate=`name:required,\\r  email:email:required,\\r  subject:required,\\r  nospam:blank,\\r  text:required:stripTags`\\r ]]\\r\\r[[!+fi.error_message:notempty=`<p class=\\"error\\">[[!+fi.error_message]]<\\/p>`]]\\r\\r<form action=\\"[[~[[*id]]]]\\" method=\\"post\\" class=\\"contactForm\\">\\r<input type=\\"hidden\\" name=\\"nospam\\" value=\\"\\" \\/>\\r<div>\\r<label for=\\"name\\">Name: [[!+fi.error.name]]<\\/label>\\r<input type=\\"text\\" name=\\"name\\" id=\\"name\\" value=\\"[[!+fi.name]]\\" class=\\"input\\" \\/>\\r<\\/div>\\r<div>\\r<label for=\\"email\\">Email: [[!+fi.error.email]]<\\/label>\\r<input type=\\"text\\" name=\\"email\\" id=\\"email\\" value=\\"[[!+fi.email]]\\" class=\\"input\\" \\/>\\r<\\/div>\\r<div>\\r<label for=\\"subject\\">Reason for Contact: [[!+fi.error.subject]]<\\/label>\\r<input type=\\"text\\" name=\\"subject\\" id=\\"subject\\" value=\\"[[!+fi.subject]]\\" class=\\"input\\" \\/>\\r<\\/div>\\r<div>\\r<label for=\\"text\\">Message: [[!+fi.error.text]]<\\/label>\\r<textarea class=\\"textarea\\" name=\\"text\\" id=\\"text\\" value=\\"[[!+fi.text]]\\">[[!+fi.text]]<\\/textarea>\\r<\\/div>\\r<input type=\\"submit\\" value=\\"SEND\\" class=\\"form-button\\" \\/>\\r<\\/form>\\r"}',
+              'guid' => 'edf1fb91637e3bceb12ade00ba853516',
+              'native_key' => NULL,
+              'signature' => '7b562b1150fa6fe8539a5b5ed694ff04',
+            ),
+            '6ebdbabb00836333fd5eb997dde8015c' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.feature_featured_posts_aside_industrix","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[[[*fpost_ids:is=``:then=`-`:else=``]]getResources?\\r    &parents=`-1`\\r    &resources=`[[*fpost_ids:is=`default`:then=`[[++mxt.default_fposts]]`:else=`[[*fpost_ids]]`]]`\\r    &sortdir=`ASC`\\r    &tpl=`tpl.featured_posts_aside_industrix`\\r    &includeTVs=`1` &processTVs=`1` &tvPrefix=`tv.`\\r]]\\r","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[[[*fpost_ids:is=``:then=`-`:else=``]]getResources?\\r    &parents=`-1`\\r    &resources=`[[*fpost_ids:is=`default`:then=`[[++mxt.default_fposts]]`:else=`[[*fpost_ids]]`]]`\\r    &sortdir=`ASC`\\r    &tpl=`tpl.featured_posts_aside_industrix`\\r    &includeTVs=`1` &processTVs=`1` &tvPrefix=`tv.`\\r]]\\r"}',
+              'guid' => '6c16a6c69e39a07977b91a1914172595',
+              'native_key' => NULL,
+              'signature' => '15d8e8f289c887d7116ce2df91c431fb',
+            ),
+            '8c18a55d0b05eaf59c48a840925b9e5d' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.feature_featured_posts_grid_industrix","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[*fpost_ids:is=``:then=``:else=`\\r<div class=\\"mp-grid p1 clearfix featured-grid\\">\\r[[[[*fpost_ids:is=``:then=`-`:else=``]]getResources?\\r    &resources=`[[*fpost_ids:is=`default`:then=`[[++mxt.default_fposts]]`:else=`[[*fpost_ids]]`]]`\\r    &parents=`-1`\\r    &tpl=`tpl.featured_posts_grid_industrix`\\r    &limit=`0`\\r    &sortdir=`ASC`\\r    &includeTVs=`1`\\r    &processTVs=`1`\\r    &tvPrefix=`tv.`\\r]]\\r<\\/div>`]]\\r","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[*fpost_ids:is=``:then=``:else=`\\r<div class=\\"mp-grid p1 clearfix featured-grid\\">\\r[[[[*fpost_ids:is=``:then=`-`:else=``]]getResources?\\r    &resources=`[[*fpost_ids:is=`default`:then=`[[++mxt.default_fposts]]`:else=`[[*fpost_ids]]`]]`\\r    &parents=`-1`\\r    &tpl=`tpl.featured_posts_grid_industrix`\\r    &limit=`0`\\r    &sortdir=`ASC`\\r    &includeTVs=`1`\\r    &processTVs=`1`\\r    &tvPrefix=`tv.`\\r]]\\r<\\/div>`]]\\r"}',
+              'guid' => 'bb2665d1824cebd206084d5c240e6b28',
+              'native_key' => NULL,
+              'signature' => '3b892c4710802e1faef498e808d8b33d',
+            ),
+            '903f52d62a1aa6f7a4e02854384478f5' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.feature_featured_posts_page_industrix","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[*fpost_ids:is=``:then=``:else=`<section class=\\"container bg-dark-secondary\\">\\r[[[[*fpost_ids:is=``:then=`-`:else=``]]getResources?\\r    &parents=`-1`\\r    &resources=`[[*fpost_ids:is=`default`:then=`[[++mxt.default_fposts]]`:else=`[[*fpost_ids]]`]]`\\r    &sortdir=`ASC`\\r    &tpl=`tpl.featured_posts_page_industrix`\\r    &includeTVs=`1` &processTVs=`1` &tvPrefix=`tv.`\\r]]\\r<\\/section>`]]\\r","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[*fpost_ids:is=``:then=``:else=`<section class=\\"container bg-dark-secondary\\">\\r[[[[*fpost_ids:is=``:then=`-`:else=``]]getResources?\\r    &parents=`-1`\\r    &resources=`[[*fpost_ids:is=`default`:then=`[[++mxt.default_fposts]]`:else=`[[*fpost_ids]]`]]`\\r    &sortdir=`ASC`\\r    &tpl=`tpl.featured_posts_page_industrix`\\r    &includeTVs=`1` &processTVs=`1` &tvPrefix=`tv.`\\r]]\\r<\\/section>`]]\\r"}',
+              'guid' => '2879632478564946bf2a0268f0fbded6',
+              'native_key' => NULL,
+              'signature' => '746f8e43dd422d689fc93fc0db13e8dc',
+            ),
+            'ebf07c973ce3e445ed46c3e2b85ffefa' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.feature_hero_industrix","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[*hero_banner:is=`yes`:then=`\\r<div class=\\"hero-banner bg-dark-primary\\"><div class=\\"container\\"><img src=\\"[[*page_img]]\\" alt=\\"[[*pagetitle]]\\" class=\\"fit\\"><\\/div><\\/div>\\r`]]","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[*hero_banner:is=`yes`:then=`\\r<div class=\\"hero-banner bg-dark-primary\\"><div class=\\"container\\"><img src=\\"[[*page_img]]\\" alt=\\"[[*pagetitle]]\\" class=\\"fit\\"><\\/div><\\/div>\\r`]]"}',
+              'guid' => 'ec6364e770909b6e5c84d49a5c039bc2',
+              'native_key' => NULL,
+              'signature' => 'c7fe5aceb21d3867b01ff51518a0edba',
+            ),
+            '64b2acee400ea7fed227fc084d7ea1d9' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.feature_listallbyparent_aside_industrix","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<ul class=\\"toc bg-dark-secondary\\">\\r[[[[*listbyparent:is=``:then=`-`:else=``]]getResources?\\r    &parents=`[[*listbyparent]]`\\r    &tpl=`tpl.listbyparent_aside_industrix`\\r    &limit=`0`\\r    &sortby=`publishedon`\\r    &sortdir=`DESC`\\r    &includeTVs=`1`\\r    &processTVs=`1`\\r    &tvPrefix=`tv.`\\r]]\\r<\\/ul>\\r","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<ul class=\\"toc bg-dark-secondary\\">\\r[[[[*listbyparent:is=``:then=`-`:else=``]]getResources?\\r    &parents=`[[*listbyparent]]`\\r    &tpl=`tpl.listbyparent_aside_industrix`\\r    &limit=`0`\\r    &sortby=`publishedon`\\r    &sortdir=`DESC`\\r    &includeTVs=`1`\\r    &processTVs=`1`\\r    &tvPrefix=`tv.`\\r]]\\r<\\/ul>\\r"}',
+              'guid' => 'f60e60ec15a3a66150e55d9cd1388549',
+              'native_key' => NULL,
+              'signature' => '353dc5d37750286b4986de8764103f42',
+            ),
+            'dbf2ef2710ed7be8699a4ead4e8c650b' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.feature_listallbyparent_grid_industrix","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[*listbyparent:is=``:then=``:else=`\\r<h1 class=\\"primaryTitle accent-primary secondary-font\\">[[!GetTitleById? &id=`[[*listbyparent]]`]]<\\/h1>\\r<div class=\\"mp-grid p1 clearfix\\">\\r[[[[*listbyparent:is=``:then=`-`:else=``]]getResources?\\r    &parents=`[[*listbyparent]]`\\r    &tpl=`tpl.listbyparent_grid_industrix`\\r    &limit=`0`\\r    &sortby=`publishedon`\\r    &sortdir=`DESC`\\r    &includeTVs=`1`\\r    &processTVs=`1`\\r    &tvPrefix=`tv.`\\r]]\\r<\\/div>`]]\\r","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[*listbyparent:is=``:then=``:else=`\\r<h1 class=\\"primaryTitle accent-primary secondary-font\\">[[!GetTitleById? &id=`[[*listbyparent]]`]]<\\/h1>\\r<div class=\\"mp-grid p1 clearfix\\">\\r[[[[*listbyparent:is=``:then=`-`:else=``]]getResources?\\r    &parents=`[[*listbyparent]]`\\r    &tpl=`tpl.listbyparent_grid_industrix`\\r    &limit=`0`\\r    &sortby=`publishedon`\\r    &sortdir=`DESC`\\r    &includeTVs=`1`\\r    &processTVs=`1`\\r    &tvPrefix=`tv.`\\r]]\\r<\\/div>`]]\\r"}',
+              'guid' => '49bd54b3067027f2f04986205805ced8',
+              'native_key' => NULL,
+              'signature' => 'db262bd3b2d1ab5052e3b51f69f2253a',
+            ),
+            '7ba0cb3ef052e10acc1d3ef16f0eb5d8' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.feature_listallbyparent_listing_industrix","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[*listbyparent:is=``:then=``:else=`<section><div class=\\"clearfix container bg-dark-secondary\\">\\r    <h1 class=\\"primaryTitle accent-primary secondary-font\\">[[!GetTitleById? &id=`[[*listbyparent]]`]]<\\/h1>\\r[[[[*listbyparent:is=``:then=`-`:else=``]]getResources?\\r    &parents=`[[*listbyparent]]`\\r    &tpl=`tpl.listbyparent_listing_industrix`\\r    &limit=`0`\\r    &sortby=`publishedon`\\r    &sortdir=`DESC`\\r    &includeTVs=`1`\\r    &processTVs=`1`\\r    &tvPrefix=`tv.`\\r    &includeContent=`1`\\r]]\\r<\\/div><\\/section>`]]\\r","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[*listbyparent:is=``:then=``:else=`<section><div class=\\"clearfix container bg-dark-secondary\\">\\r    <h1 class=\\"primaryTitle accent-primary secondary-font\\">[[!GetTitleById? &id=`[[*listbyparent]]`]]<\\/h1>\\r[[[[*listbyparent:is=``:then=`-`:else=``]]getResources?\\r    &parents=`[[*listbyparent]]`\\r    &tpl=`tpl.listbyparent_listing_industrix`\\r    &limit=`0`\\r    &sortby=`publishedon`\\r    &sortdir=`DESC`\\r    &includeTVs=`1`\\r    &processTVs=`1`\\r    &tvPrefix=`tv.`\\r    &includeContent=`1`\\r]]\\r<\\/div><\\/section>`]]\\r"}',
+              'guid' => '7bddb3db06e68bd68386cd5b75d43b38',
+              'native_key' => NULL,
+              'signature' => '4409bd4b0376bae928d4e37dfa2bae17',
+            ),
+            '2b6ce740d220003dc670d5e8c49a8fc7' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.feature_listallbyparent_page_industrix","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[*listbyparent:is=``:then=``:else=`<section class=\\"clearfix\\">\\r[[[[*listbyparent:is=``:then=`-`:else=``]]getResources?\\r    &parents=`[[*listbyparent]]`\\r    &tpl=`tpl.listbyparent_page_industrix`\\r    &limit=`0`\\r    &sortby=`publishedon`\\r    &sortdir=`DESC`\\r    &includeTVs=`1`\\r    &processTVs=`1`\\r    &tvPrefix=`tv.`\\r]]\\r<\\/section>`]]\\r","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[*listbyparent:is=``:then=``:else=`<section class=\\"clearfix\\">\\r[[[[*listbyparent:is=``:then=`-`:else=``]]getResources?\\r    &parents=`[[*listbyparent]]`\\r    &tpl=`tpl.listbyparent_page_industrix`\\r    &limit=`0`\\r    &sortby=`publishedon`\\r    &sortdir=`DESC`\\r    &includeTVs=`1`\\r    &processTVs=`1`\\r    &tvPrefix=`tv.`\\r]]\\r<\\/section>`]]\\r"}',
+              'guid' => '1a622267c76d379fe6a36c2945d38dbe',
+              'native_key' => NULL,
+              'signature' => '4145b32bc66b7fb2f2835eb6cab628e6',
+            ),
+            'b9c20a6b1189b8318cd3d55a6fc3b642' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.feature_listbyid_aside_industrix","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<ul class=\\"toc bg-dark-secondary\\">\\r[[[[*listing_ids:is=``:then=`-`:else=``]]getResources?\\r    &resources=`[[*listing_ids]]`\\r    &parents=`-1`\\r    &tpl=`tpl.listbyparent_aside_industrix`\\r    &sortdir=`ASC`\\r    &limit=`0`\\r    &includeTVs=`1`\\r    &processTVs=`1`\\r    &tvPrefix=`tv.`\\r]]\\r<\\/ul>\\r","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<ul class=\\"toc bg-dark-secondary\\">\\r[[[[*listing_ids:is=``:then=`-`:else=``]]getResources?\\r    &resources=`[[*listing_ids]]`\\r    &parents=`-1`\\r    &tpl=`tpl.listbyparent_aside_industrix`\\r    &sortdir=`ASC`\\r    &limit=`0`\\r    &includeTVs=`1`\\r    &processTVs=`1`\\r    &tvPrefix=`tv.`\\r]]\\r<\\/ul>\\r"}',
+              'guid' => '912ea497be29c5fe6427ecff07b02d10',
+              'native_key' => NULL,
+              'signature' => '2894c08e8d020f2db6a85fed11038f45',
+            ),
+            '352812eb68ea7bbe15aec77aa8267be3' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.feature_listbyid_grid_industrix","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[*listing_ids:is=``:then=``:else=`\\r<div class=\\"mp-grid p1 clearfix\\">\\r[[[[*listing_ids:is=``:then=`-`:else=``]]getResources?\\r    &resources=`[[*listing_ids]]`\\r    &parents=`-1`\\r    &tpl=`tpl.listbyparent_grid_industrix`\\r    &limit=`0`\\r    &sortdir=`ASC`\\r    &includeTVs=`1`\\r    &processTVs=`1`\\r    &tvPrefix=`tv.`\\r]]\\r<\\/div>`]]\\r","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[*listing_ids:is=``:then=``:else=`\\r<div class=\\"mp-grid p1 clearfix\\">\\r[[[[*listing_ids:is=``:then=`-`:else=``]]getResources?\\r    &resources=`[[*listing_ids]]`\\r    &parents=`-1`\\r    &tpl=`tpl.listbyparent_grid_industrix`\\r    &limit=`0`\\r    &sortdir=`ASC`\\r    &includeTVs=`1`\\r    &processTVs=`1`\\r    &tvPrefix=`tv.`\\r]]\\r<\\/div>`]]\\r"}',
+              'guid' => 'e7e049876874e1653a24e9262883c772',
+              'native_key' => NULL,
+              'signature' => '7f3c712f1963638b6e87e34e567171ba',
+            ),
+            '32160b3b48cdb00468780d15ef94ec99' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.feature_listbyid_listing_industrix","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[*listing_ids:is=``:then=``:else=`<section><div class=\\"clearfix container bg-dark-secondary\\">\\r    <h1 class=\\"primaryTitle accent-primary secondary-font\\">[[*longtitle:default=`[[*pagetitle]]`]]<\\/h1>\\r[[[[*listing_ids:is=``:then=`-`:else=``]]getResources?\\r    &resources=`[[*listing_ids]]`\\r    &parents=`-1`\\r    &tpl=`tpl.listbyparent_listing_industrix`\\r    &sortdir=`ASC`\\r    &limit=`0`\\r    &includeTVs=`1`\\r    &processTVs=`1`\\r    &tvPrefix=`tv.`\\r    &includeContent=`1`\\r]]\\r<\\/div><\\/section>`]]\\r","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[*listing_ids:is=``:then=``:else=`<section><div class=\\"clearfix container bg-dark-secondary\\">\\r    <h1 class=\\"primaryTitle accent-primary secondary-font\\">[[*longtitle:default=`[[*pagetitle]]`]]<\\/h1>\\r[[[[*listing_ids:is=``:then=`-`:else=``]]getResources?\\r    &resources=`[[*listing_ids]]`\\r    &parents=`-1`\\r    &tpl=`tpl.listbyparent_listing_industrix`\\r    &sortdir=`ASC`\\r    &limit=`0`\\r    &includeTVs=`1`\\r    &processTVs=`1`\\r    &tvPrefix=`tv.`\\r    &includeContent=`1`\\r]]\\r<\\/div><\\/section>`]]\\r"}',
+              'guid' => 'b3b79ca1b55a684b24df4595032738b4',
+              'native_key' => NULL,
+              'signature' => '92b4cba2fe676e8302c3068f537269fc',
+            ),
+            '0c07689c0230b593651889f6ede95eca' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.feature_listbyid_page_industrix","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[*listing_ids:is=``:then=``:else=`<section class=\\"clearfix\\">\\r[[[[*listing_ids:is=``:then=`-`:else=``]]getResources?\\r    &resources=`[[*listing_ids]]`\\r    &parents=`-1`\\r    &tpl=`tpl.listbyparent_page_industrix`\\r    &sortdir=`ASC`\\r    &includeTVs=`1`\\r    &processTVs=`1`\\r    &tvPrefix=`tv.`\\r]]\\r<\\/section>`]]\\r","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[*listing_ids:is=``:then=``:else=`<section class=\\"clearfix\\">\\r[[[[*listing_ids:is=``:then=`-`:else=``]]getResources?\\r    &resources=`[[*listing_ids]]`\\r    &parents=`-1`\\r    &tpl=`tpl.listbyparent_page_industrix`\\r    &sortdir=`ASC`\\r    &includeTVs=`1`\\r    &processTVs=`1`\\r    &tvPrefix=`tv.`\\r]]\\r<\\/section>`]]\\r"}',
+              'guid' => 'ec18c6aba74a1412da126bcc54467fbe',
+              'native_key' => NULL,
+              'signature' => 'fc5ae62d77dc34977722a851a0d9dd79',
+            ),
+            'feabe09b1b03f65c26f173d7f593246a' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.feature_slider_industrix","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[*slider_ids:is=``:then=``:else=`\\r<section class=\\"bg-dark-primary\\">\\r <div class=\\"container bg-dark-secondary\\">\\r  <div class=\\"container_inner\\">\\r  <div id=\\"d-r-s\\" style=\\"height: 400px;\\">\\r  <!-- set height here as another beginning fallback setting -->\\r    <button id=\\"l-arrow\\" class=\\"d-r-s-arrow accent-primary bg-dark-secondary\\"><i class=\\"fa fa-chevron-left\\"><\\/i><\\/button>\\r    <button id=\\"r-arrow\\" class=\\"d-r-s-arrow accent-primary bg-dark-secondary\\"><i class=\\"fa fa-chevron-right\\"><\\/i><\\/button>\\r\\t\\r\\t<div class=\\"d-r-s-slide\\">\\r        [[[[*slider_ids:is=``:then=`-`:else=``]]!Gallery? &album=`[[*slider_ids]]` &thumbTpl=`tpl.feature_slider_industrix`]]\\t\\t\\r\\t<\\/div><!-- eof d-r-s-slide -->\\r  <\\/div><!-- eof d-r-s -->\\r  <\\/div>\\r <\\/div>\\r<\\/section>\\r`]]","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[*slider_ids:is=``:then=``:else=`\\r<section class=\\"bg-dark-primary\\">\\r <div class=\\"container bg-dark-secondary\\">\\r  <div class=\\"container_inner\\">\\r  <div id=\\"d-r-s\\" style=\\"height: 400px;\\">\\r  <!-- set height here as another beginning fallback setting -->\\r    <button id=\\"l-arrow\\" class=\\"d-r-s-arrow accent-primary bg-dark-secondary\\"><i class=\\"fa fa-chevron-left\\"><\\/i><\\/button>\\r    <button id=\\"r-arrow\\" class=\\"d-r-s-arrow accent-primary bg-dark-secondary\\"><i class=\\"fa fa-chevron-right\\"><\\/i><\\/button>\\r\\t\\r\\t<div class=\\"d-r-s-slide\\">\\r        [[[[*slider_ids:is=``:then=`-`:else=``]]!Gallery? &album=`[[*slider_ids]]` &thumbTpl=`tpl.feature_slider_industrix`]]\\t\\t\\r\\t<\\/div><!-- eof d-r-s-slide -->\\r  <\\/div><!-- eof d-r-s -->\\r  <\\/div>\\r <\\/div>\\r<\\/section>\\r`]]"}',
+              'guid' => '89f0cb938f0691c3f3cb2cf4bd44573b',
+              'native_key' => NULL,
+              'signature' => '3eeed9f4311cd008e7de15265e06fcdc',
+            ),
+          ),
+        ),
+      ),
+      '52b93368c1a557eef5a6d8cfe34120aa' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 
+        array (
+          0 => 'parent',
+          1 => 'category',
+        ),
+        'class' => 'modCategory',
+        'object' => '{"id":null,"parent":0,"category":"Gallery","rank":0}',
+        'guid' => '0e3caed764567ecb765f11c14f5cfae6',
+        'native_key' => NULL,
+        'signature' => 'df2ea5d572bb38969251c537d817eec3',
+        'related_objects' => 
+        array (
+          'Chunks' => 
+          array (
+            '90a3c469b42553001129e6bcbd4e031e' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.gallery_body_page_industrix","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<h1 class=\\"primaryTitle accent-primary secondary-font\\">[[*longtitle:default=`[[*pagetitle]]`]]<\\/h1>\\r[[*content]]\\r\\r<div class=\\"mp-grid p1 clearfix gallery-grid\\">\\r    [[[[*slider_ids:is=``:then=`-`:else=``]]!Gallery? &album=`[[*slider_ids]]` &thumbTpl=`tpl.feature_gallery_industrix`]]\\r<\\/div>","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<h1 class=\\"primaryTitle accent-primary secondary-font\\">[[*longtitle:default=`[[*pagetitle]]`]]<\\/h1>\\r[[*content]]\\r\\r<div class=\\"mp-grid p1 clearfix gallery-grid\\">\\r    [[[[*slider_ids:is=``:then=`-`:else=``]]!Gallery? &album=`[[*slider_ids]]` &thumbTpl=`tpl.feature_gallery_industrix`]]\\r<\\/div>"}',
+              'guid' => 'd3507756ba84e04e66e40ef4ef2d3bf5',
+              'native_key' => NULL,
+              'signature' => 'c54daa0a4b312f9c3721beb8cb62a2a8',
+            ),
+            'cd62c97c66bd11fa2272c92e617481a9' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.gallery_content_industrix","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<section class=\\"bg-dark-primary\\">\\r    <div class=\\"container bg-dark-secondary gallery--container\\">\\r    [[!$mxt.gallery_body_page_industrix]]\\r    <\\/div>\\r<\\/section>","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<section class=\\"bg-dark-primary\\">\\r    <div class=\\"container bg-dark-secondary gallery--container\\">\\r    [[!$mxt.gallery_body_page_industrix]]\\r    <\\/div>\\r<\\/section>"}',
+              'guid' => '82fbf0d1574383f43134d9988aaa7f51',
+              'native_key' => NULL,
+              'signature' => '51f20dd8a6f1eb00ecd178b90facb7cd',
+            ),
+            'f791fc0a7e00a2bf468a46a481eeea4c' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.gallery_end_industrix","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[$mxt.global_end_industrix]]","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[$mxt.global_end_industrix]]"}',
+              'guid' => 'f94198035ddbade41039c9e67c01030f',
+              'native_key' => NULL,
+              'signature' => '7a30243ec76ca484f361c2fac7daf01f',
+            ),
+            '538cdffbb85f28c3a3821af87c355cf8' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.gallery_footer_industrix","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[$mxt.global_footer_industrix]]\\r\\r<section class=\\"modal-bg\\">\\r\\r    <!-- Gallery Modal -->\\r    <div class=\\"modal\\" id=\\"galleryModal\\" tabindex=\\"-1\\" role=\\"dialog\\" aria-hidden=\\"true\\">\\r      <div class=\\"modal-dialog\\">\\r        <div class=\\"modal-content\\">\\r          <div class=\\"modal-body\\">\\r            <img src=\\"\\" class=\\"fit\\" id=\\"galleryImageLarge\\" alt=\\"\\">\\r          <\\/div>\\r          <div class=\\"modal-footer\\">\\r            <button type=\\"button\\" class=\\"form-button js-close-modal\\" data-dismiss=\\"modal\\">Close<\\/button>\\r          <\\/div>\\r        <\\/div>\\r      <\\/div>\\r    <\\/div>\\r    \\r<\\/section>","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[$mxt.global_footer_industrix]]\\r\\r<section class=\\"modal-bg\\">\\r\\r    <!-- Gallery Modal -->\\r    <div class=\\"modal\\" id=\\"galleryModal\\" tabindex=\\"-1\\" role=\\"dialog\\" aria-hidden=\\"true\\">\\r      <div class=\\"modal-dialog\\">\\r        <div class=\\"modal-content\\">\\r          <div class=\\"modal-body\\">\\r            <img src=\\"\\" class=\\"fit\\" id=\\"galleryImageLarge\\" alt=\\"\\">\\r          <\\/div>\\r          <div class=\\"modal-footer\\">\\r            <button type=\\"button\\" class=\\"form-button js-close-modal\\" data-dismiss=\\"modal\\">Close<\\/button>\\r          <\\/div>\\r        <\\/div>\\r      <\\/div>\\r    <\\/div>\\r    \\r<\\/section>"}',
+              'guid' => 'd7551e658ca636b5d656cd19c6fb8637',
+              'native_key' => NULL,
+              'signature' => '64f83ea1b514bb5fbc537623846bdc9d',
+            ),
+            'dca6ef41c7f21e3bb99aa5da0a5ebf16' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.gallery_header_industrix","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[$mxt.global_header_industrix]]","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[$mxt.global_header_industrix]]"}',
+              'guid' => '677b5d358be5bb1e4027e6be9958540b',
+              'native_key' => NULL,
+              'signature' => '915956a321c52e0eaa41bf88ed199dc6',
+            ),
+            '505fb7d06fcdf1f77be770fe34069236' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.gallery_start_industrix","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[$mxt.global_start_industrix]]","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[$mxt.global_start_industrix]]"}',
+              'guid' => 'b4f5e84f1aed3678746b623eb9c452df',
+              'native_key' => NULL,
+              'signature' => 'e61bae0d5a2d56c01fd5ecb174f0ee86',
+            ),
+          ),
+        ),
+      ),
+      '4c281373b5eaef471a0e2d5d6c4b80f0' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 
+        array (
+          0 => 'parent',
+          1 => 'category',
+        ),
+        'class' => 'modCategory',
+        'object' => '{"id":null,"parent":0,"category":"Global","rank":0}',
+        'guid' => '5ddc0458f17dc636bed7b4c802f608a3',
+        'native_key' => NULL,
+        'signature' => '9734f1ab8b557dfd341389076e3606bd',
+        'related_objects' => 
+        array (
+          'Chunks' => 
+          array (
+            '6ce8f8e6a72f9bbacd68fee27d288571' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.global_end_industrix","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[++industrix_js_link:notempty=`<script src=\\"[[++industrix_js_link]]\\"><\\/script>`]]\\r<script type=\\"text\\/javascript\\" src=\\"assets\\/components\\/industrix-theme\\/js\\/industrix.js\\"><\\/script>\\r<\\/body>\\r<\\/html>","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[++industrix_js_link:notempty=`<script src=\\"[[++industrix_js_link]]\\"><\\/script>`]]\\r<script type=\\"text\\/javascript\\" src=\\"assets\\/components\\/industrix-theme\\/js\\/industrix.js\\"><\\/script>\\r<\\/body>\\r<\\/html>"}',
+              'guid' => '53fc8e79ca23ea74d0140c80f9b31310',
+              'native_key' => NULL,
+              'signature' => '987c7ed130a5dfa50f201fc82a9175ec',
+            ),
+            '9bf5a6f01dc4e0da3896275cab9929eb' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.global_footer_industrix","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<footer class=\\"bg-dark-primary\\">\\r    <div class=\\"container\\">\\r        <div class=\\"container_inner\\">\\r            <div class=\\"rs-left\\">\\r                <p class=\\"neutral-primary\\">[[++mxt.default_copyright]] [[++mxt.default_slogan]]<\\/p>\\r            <\\/div>\\r            <div class=\\"rs-right\\">\\r                <p><a href=\\"[[~[[*id]]]]#top\\">Back to Top <i class=\\"fa fa-arrow-circle-up\\"><\\/i><\\/a><\\/p>\\r            <\\/div>    \\r        <\\/div>    \\r    <\\/div>\\r<\\/footer>    ","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<footer class=\\"bg-dark-primary\\">\\r    <div class=\\"container\\">\\r        <div class=\\"container_inner\\">\\r            <div class=\\"rs-left\\">\\r                <p class=\\"neutral-primary\\">[[++mxt.default_copyright]] [[++mxt.default_slogan]]<\\/p>\\r            <\\/div>\\r            <div class=\\"rs-right\\">\\r                <p><a href=\\"[[~[[*id]]]]#top\\">Back to Top <i class=\\"fa fa-arrow-circle-up\\"><\\/i><\\/a><\\/p>\\r            <\\/div>    \\r        <\\/div>    \\r    <\\/div>\\r<\\/footer>    "}',
+              'guid' => 'b3e53aec06c68843f33bec0d2638cfe7',
+              'native_key' => NULL,
+              'signature' => 'bb2ceaa0e6ff060f01bb07880d8d053a',
+            ),
+            'd80cb1f1f0c9bebe3dc6d6a49cb719b9' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.global_header_industrix","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<header class=\\"bg-dark-primary\\" id=\\"top\\">\\r    <div class=\\"container bg-dark-secondary\\">\\r        <div class=\\"container_inner\\">\\r            <div id=\\"logo\\" class=\\"rs-left\\">\\r                [[++mxt.default_theme_img:notempty=`<img src=\\"[[++mxt.default_theme_img]]\\" width=\\"50\\" class=\\"fit\\" alt=\\"[[++site_name]]\\">`]]\\r                <h5>[[++site_name]]<\\/h5>\\r            <\\/div>\\r            <div id=\\"header_meta\\" class=\\"rs-right neutral-primary\\">\\r                <span id=\\"header_phone\\">[[++industrix_phone]]<\\/span>\\r                [[++mxt.social_facebook:notempty=`<a href=\\"[[++mxt.social_facebook]]\\" target=\\"_blank\\"><i class=\\"fa fa-facebook-square\\"><\\/i><\\/a>`]]\\r                [[++mxt.social_twitter:notempty=`<a href=\\"[[++mxt.social_twitter]]\\" target=\\"_blank\\"><i class=\\"fa fa-twitter-square\\"><\\/i><\\/a>`]]\\r            <\\/div>\\r        <\\/div><!-- eof container_inner -->\\r    <\\/div><!-- eof container -->\\r<\\/header>\\r<nav role=\\"navigation\\">\\r    <button id=\\"navToggle\\" class=\\"mobile-show\\" onclick=\\"clickToggle(\'navToggle\')\\"><i class=\\"fa fa-navicon\\"><\\/i> MENU<\\/button>\\r    <ul class=\\"container\\" role=\\"menu\\" aria-label=\\"Main menu\\">[[getResources? &parents=`0` &limit=`0` &depth=`0` &tpl=`tpl.nav_row_industrix` &sortby=`{\\"menuindex\\":\\"ASC\\"}`]]<\\/ul>\\r<\\/nav>\\r","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<header class=\\"bg-dark-primary\\" id=\\"top\\">\\r    <div class=\\"container bg-dark-secondary\\">\\r        <div class=\\"container_inner\\">\\r            <div id=\\"logo\\" class=\\"rs-left\\">\\r                [[++mxt.default_theme_img:notempty=`<img src=\\"[[++mxt.default_theme_img]]\\" width=\\"50\\" class=\\"fit\\" alt=\\"[[++site_name]]\\">`]]\\r                <h5>[[++site_name]]<\\/h5>\\r            <\\/div>\\r            <div id=\\"header_meta\\" class=\\"rs-right neutral-primary\\">\\r                <span id=\\"header_phone\\">[[++industrix_phone]]<\\/span>\\r                [[++mxt.social_facebook:notempty=`<a href=\\"[[++mxt.social_facebook]]\\" target=\\"_blank\\"><i class=\\"fa fa-facebook-square\\"><\\/i><\\/a>`]]\\r                [[++mxt.social_twitter:notempty=`<a href=\\"[[++mxt.social_twitter]]\\" target=\\"_blank\\"><i class=\\"fa fa-twitter-square\\"><\\/i><\\/a>`]]\\r            <\\/div>\\r        <\\/div><!-- eof container_inner -->\\r    <\\/div><!-- eof container -->\\r<\\/header>\\r<nav role=\\"navigation\\">\\r    <button id=\\"navToggle\\" class=\\"mobile-show\\" onclick=\\"clickToggle(\'navToggle\')\\"><i class=\\"fa fa-navicon\\"><\\/i> MENU<\\/button>\\r    <ul class=\\"container\\" role=\\"menu\\" aria-label=\\"Main menu\\">[[getResources? &parents=`0` &limit=`0` &depth=`0` &tpl=`tpl.nav_row_industrix` &sortby=`{\\"menuindex\\":\\"ASC\\"}`]]<\\/ul>\\r<\\/nav>\\r"}',
+              'guid' => '988f6e54217307003203249593f5dde0',
+              'native_key' => NULL,
+              'signature' => '19e3597c3d9151eaa3fea49ecc4d3f9d',
+            ),
+            '06537d87d05d3248784e8804945c3ac4' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.global_start_industrix","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<!DOCTYPE html>\\r<html lang=\\"en\\">\\r<head>\\r    <!-- You have loaded Theme [[++mxt.theme]] -->\\r    <!-- You have Selected Content Template \\"[[*content_tpl]]\\" -->\\r    <meta charset=\\"UTF-8\\">\\r    <meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1.0\\">\\r    <meta name=\\"description\\" content=\\"[[*description]]\\">\\r\\r    <title>[[*longtitle:default=`[[*pagetitle]]`]] - [[++site_name]]<\\/title>\\r    \\r    <link rel=\\"stylesheet\\" href=\\"\\/\\/maxcdn.bootstrapcdn.com\\/font-awesome\\/4.4.0\\/css\\/font-awesome.min.css\\">\\r    <link rel=\\"stylesheet\\" href=\\"[[++industrix_font_link]]\\" type=\\"text\\/css\\">\\r    <link rel=\\"stylesheet\\" href=\\"[[++industrix_accentfont_link]]\\" type=\\"text\\/css\\">\\r    <link rel=\\"stylesheet\\" href=\\"assets\\/components\\/industrix-theme\\/css\\/theme.css\\" type=\\"text\\/css\\">\\r    <link rel=\\"stylesheet\\" href=\\"assets\\/components\\/industrix-theme\\/css\\/grid.css\\" type=\\"text\\/css\\">\\r    <link rel=\\"stylesheet\\" href=\\"assets\\/components\\/industrix-theme\\/css\\/gallery.css\\" type=\\"text\\/css\\">\\r    \\r    <style>[[$custom_industrix]]<\\/style>\\r    \\r<\\/head>\\r<body>    ","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<!DOCTYPE html>\\r<html lang=\\"en\\">\\r<head>\\r    <!-- You have loaded Theme [[++mxt.theme]] -->\\r    <!-- You have Selected Content Template \\"[[*content_tpl]]\\" -->\\r    <meta charset=\\"UTF-8\\">\\r    <meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1.0\\">\\r    <meta name=\\"description\\" content=\\"[[*description]]\\">\\r\\r    <title>[[*longtitle:default=`[[*pagetitle]]`]] - [[++site_name]]<\\/title>\\r    \\r    <link rel=\\"stylesheet\\" href=\\"\\/\\/maxcdn.bootstrapcdn.com\\/font-awesome\\/4.4.0\\/css\\/font-awesome.min.css\\">\\r    <link rel=\\"stylesheet\\" href=\\"[[++industrix_font_link]]\\" type=\\"text\\/css\\">\\r    <link rel=\\"stylesheet\\" href=\\"[[++industrix_accentfont_link]]\\" type=\\"text\\/css\\">\\r    <link rel=\\"stylesheet\\" href=\\"assets\\/components\\/industrix-theme\\/css\\/theme.css\\" type=\\"text\\/css\\">\\r    <link rel=\\"stylesheet\\" href=\\"assets\\/components\\/industrix-theme\\/css\\/grid.css\\" type=\\"text\\/css\\">\\r    <link rel=\\"stylesheet\\" href=\\"assets\\/components\\/industrix-theme\\/css\\/gallery.css\\" type=\\"text\\/css\\">\\r    \\r    <style>[[$custom_industrix]]<\\/style>\\r    \\r<\\/head>\\r<body>    "}',
+              'guid' => '56106179b141481e9f1469ddef1db71e',
+              'native_key' => NULL,
+              'signature' => '72a2b7eeba2efe1672d13c2ade9baf29',
+            ),
+          ),
+        ),
+      ),
+      '6b82b3180fedd0a6ba644e00457b4e4c' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 
+        array (
+          0 => 'parent',
+          1 => 'category',
+        ),
+        'class' => 'modCategory',
+        'object' => '{"id":null,"parent":0,"category":"Grid","rank":0}',
+        'guid' => '69825e7462b663e14a8ac6a15b525a63',
+        'native_key' => NULL,
+        'signature' => '5a81bf2ea0091469d3dd681e568aa489',
+        'related_objects' => 
+        array (
+          'Chunks' => 
+          array (
+            '333d83e615830794edae00dbdb97db4a' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.grid_body_page_industrix","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<section>\\r<div class=\\"container bg-dark-secondary\\">\\r<h1 class=\\"primaryTitle accent-primary secondary-font\\">[[*longtitle:default=`[[*pagetitle]]`]]<\\/h1>\\r[[$mxt.feature_featured_posts_grid_industrix]]\\r[[$mxt.feature_listbyid_grid_industrix]]\\r[[$mxt.feature_listallbyparent_grid_industrix]]\\r<\\/div>\\r<\\/section>","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<section>\\r<div class=\\"container bg-dark-secondary\\">\\r<h1 class=\\"primaryTitle accent-primary secondary-font\\">[[*longtitle:default=`[[*pagetitle]]`]]<\\/h1>\\r[[$mxt.feature_featured_posts_grid_industrix]]\\r[[$mxt.feature_listbyid_grid_industrix]]\\r[[$mxt.feature_listallbyparent_grid_industrix]]\\r<\\/div>\\r<\\/section>"}',
+              'guid' => '519788cc051051c51453b0f5ee3610b8',
+              'native_key' => NULL,
+              'signature' => '73c4f934f02ece8da608cd9a557ab91f',
+            ),
+            '0c6611a5459b5471295fb564ac58e21a' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.grid_content_industrix","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[$mxt.feature_hero_industrix]]\\r[[$mxt.feature_slider_listing_industrix]]\\r\\r[[[[*body_tpl:is=`blank`:then=``:else=`-`]]$mxt.grid_body_blank_industrix]]\\r[[[[*body_tpl:is=`page`:then=``:else=`-`]]!$mxt.grid_body_page_industrix]]\\r","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[$mxt.feature_hero_industrix]]\\r[[$mxt.feature_slider_listing_industrix]]\\r\\r[[[[*body_tpl:is=`blank`:then=``:else=`-`]]$mxt.grid_body_blank_industrix]]\\r[[[[*body_tpl:is=`page`:then=``:else=`-`]]!$mxt.grid_body_page_industrix]]\\r"}',
+              'guid' => '155fd3d30238c81a06d0ffa7c20685cb',
+              'native_key' => NULL,
+              'signature' => 'ce7f049e7d027098153848c60dc78550',
+            ),
+            '21cfaf7bca161d5cd956461a1e69dd4b' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.grid_end_industrix","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[$mxt.global_end_industrix]]","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[$mxt.global_end_industrix]]"}',
+              'guid' => '865eba9558728133ccb4fd26c1d7730e',
+              'native_key' => NULL,
+              'signature' => 'f3dab5f0b1df2eca863f5f9f2b6e34b8',
+            ),
+            '1b08ae708bb9005062d9721858bf8e9b' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.grid_footer_industrix","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[$mxt.global_footer_industrix]]","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[$mxt.global_footer_industrix]]"}',
+              'guid' => 'c5d7e8ab26f23dbecf1485fd85d3365b',
+              'native_key' => NULL,
+              'signature' => '9bc7ef67da135adc6ebd9c959952f760',
+            ),
+            'fd33ec242ad8b61211db171d32091f88' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.grid_header_industrix","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[$mxt.global_header_industrix]]","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[$mxt.global_header_industrix]]"}',
+              'guid' => '60e6c1d566e593699da1ad2da05bb85e',
+              'native_key' => NULL,
+              'signature' => '9bb162be60f05504a9b6e961d88b8c06',
+            ),
+            'e2f50b7064db80240e41ac1a20dcbdd8' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.grid_start_industrix","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[$mxt.global_start_industrix]]","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[$mxt.global_start_industrix]]"}',
+              'guid' => '681c8202f6d840f2c3f27e13dbe5e747',
+              'native_key' => NULL,
+              'signature' => 'c2a21cd6914fc92000d09e083da45bb3',
+            ),
+          ),
+        ),
+      ),
+      'ef5aaf8587fb5b2f8a2e8fa433c2c30e' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 
+        array (
+          0 => 'parent',
+          1 => 'category',
+        ),
+        'class' => 'modCategory',
+        'object' => '{"id":null,"parent":0,"category":"Listing","rank":0}',
+        'guid' => 'a763e59e543d049956884824c88ed557',
+        'native_key' => NULL,
+        'signature' => '4db2adfecfd4679f7a8355891c7ce557',
+        'related_objects' => 
+        array (
+          'Chunks' => 
+          array (
+            '8e2ccb6a67d04c1617e09178093d3a35' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.listing_body_blank_industrix","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[*content]]","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[*content]]"}',
+              'guid' => 'cccc574a710242e9a170813b29b33bd6',
+              'native_key' => NULL,
+              'signature' => '3ba681efa77dc7089fe5bc0c072edad9',
+            ),
+            '7a2ef2d8a2280b680c5bd9636d7f667c' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.listing_body_page_industrix","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[$mxt.feature_listbyid_listing_industrix]]\\r[[$mxt.feature_listallbyparent_listing_industrix]]","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[$mxt.feature_listbyid_listing_industrix]]\\r[[$mxt.feature_listallbyparent_listing_industrix]]"}',
+              'guid' => 'b9849defa5930a0c819683f401e73204',
+              'native_key' => NULL,
+              'signature' => 'bd19a15806baf51b832d46203e0cc97f',
+            ),
+            '5fe9f3871406ddf89450a38c30fc7c0a' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.listing_content_industrix","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[$mxt.feature_hero_industrix]]\\r[[$mxt.feature_slider_listing_industrix]]\\r[[[[*body_tpl:is=`blank`:then=``:else=`-`]]$mxt.listing_body_blank_industrix]]\\r[[[[*body_tpl:is=`page`:then=``:else=`-`]]!$mxt.listing_body_page_industrix]]","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[$mxt.feature_hero_industrix]]\\r[[$mxt.feature_slider_listing_industrix]]\\r[[[[*body_tpl:is=`blank`:then=``:else=`-`]]$mxt.listing_body_blank_industrix]]\\r[[[[*body_tpl:is=`page`:then=``:else=`-`]]!$mxt.listing_body_page_industrix]]"}',
+              'guid' => '444060b25eb9a2143072cb2e220fb254',
+              'native_key' => NULL,
+              'signature' => 'a64d2452277ce42d23b84e2d354cdbf1',
+            ),
+            'e03450cdf3b79d63c214baf90ac8ab28' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.listing_end_industrix","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[$mxt.global_end_industrix]]","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[$mxt.global_end_industrix]]"}',
+              'guid' => '8d479e8de141fcbf9d02752a80c9d163',
+              'native_key' => NULL,
+              'signature' => 'fd79f05a430d61edf6ae1b892e8a0088',
+            ),
+            '8c362bbbe3ef6901a7558a6f8040d1a1' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.listing_footer_industrix","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[$mxt.global_footer_industrix]]","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[$mxt.global_footer_industrix]]"}',
+              'guid' => '3d8c5465467109051acea94571ee95e2',
+              'native_key' => NULL,
+              'signature' => '4b2f40866cd94ccee25c5d16d39378fe',
+            ),
+            '1e091684cdc790c33f715ea67555dceb' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.listing_header_industrix","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[$mxt.global_header_industrix]]","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[$mxt.global_header_industrix]]"}',
+              'guid' => 'e1607636a15236df62768a543f6d62fc',
+              'native_key' => NULL,
+              'signature' => 'eb7239bcf5336faa7884433826f280ec',
+            ),
+            '0f95965911d4bb774866a4d49ef90f40' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.listing_start_industrix","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[$mxt.global_start_industrix]]","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[$mxt.global_start_industrix]]"}',
+              'guid' => '6c099b9c5dd29eca96a3539d1f753af7',
+              'native_key' => NULL,
+              'signature' => '9cca314a8568538479e82e816791da62',
+            ),
+          ),
+        ),
+      ),
+      '996bf17e3e0d1eb1942b74d9329f5f82' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 
+        array (
+          0 => 'parent',
+          1 => 'category',
+        ),
+        'class' => 'modCategory',
+        'object' => '{"id":null,"parent":0,"category":"Page","rank":0}',
+        'guid' => 'a1a7f424841729e69097c056bc6d29a7',
+        'native_key' => NULL,
+        'signature' => '0e92be2308a46109ed4ebb5b35bcaab1',
+        'related_objects' => 
+        array (
+          'Chunks' => 
+          array (
+            'f75e8a776ab9504e1bd14ae2bc8cd0cb' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.page_body_blank_industrix","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[*content]]","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[*content]]"}',
+              'guid' => '4c72e57b42cbb800cae103c2888f5ee4',
+              'native_key' => NULL,
+              'signature' => '026acdfa79a3b8be2127bdf467f240dd',
+            ),
+            '0145260caf6fe165748a9bfc58be6fe4' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.page_body_page_industrix","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<article itemscope itemtype=\\"http:\\/\\/schema.org\\/BlogPosting\\" aria-labelledby=\\"headline\\">\\r  \\t<header class=\\"container_inner bg-dark-secondary\\">\\r        <h1 itemprop=\\"headline\\" id=\\"headline\\" class=\\"accent-primary\\">[[*longtitle:default=`[[*pagetitle]]`]]<\\/h1>\\r        <p class=\\"white\\"><em><time itemprop=\\"datePublished\\" datetime=\\"[[*publishedon:strtotime:date=`%Y-%m-%d`]]\\">[[*publishedon:strtotime:date=`%Y-%m-%d`]]<\\/time><\\/em><\\/p>\\r    <\\/header>\\r  \\t<div class=\\"container_inner\\">\\r  \\t    <div itemprop=\\"text\\">[[*content]]<\\/div>\\r  \\t    [[$mxt.feature_listallbyparent_page_industrix]]\\r  \\t    [[$mxt.feature_listbyid_page_industrix]]\\r    <\\/div>\\r<\\/article>\\r[[$mxt.feature_featured_posts_page_industrix]]","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<article itemscope itemtype=\\"http:\\/\\/schema.org\\/BlogPosting\\" aria-labelledby=\\"headline\\">\\r  \\t<header class=\\"container_inner bg-dark-secondary\\">\\r        <h1 itemprop=\\"headline\\" id=\\"headline\\" class=\\"accent-primary\\">[[*longtitle:default=`[[*pagetitle]]`]]<\\/h1>\\r        <p class=\\"white\\"><em><time itemprop=\\"datePublished\\" datetime=\\"[[*publishedon:strtotime:date=`%Y-%m-%d`]]\\">[[*publishedon:strtotime:date=`%Y-%m-%d`]]<\\/time><\\/em><\\/p>\\r    <\\/header>\\r  \\t<div class=\\"container_inner\\">\\r  \\t    <div itemprop=\\"text\\">[[*content]]<\\/div>\\r  \\t    [[$mxt.feature_listallbyparent_page_industrix]]\\r  \\t    [[$mxt.feature_listbyid_page_industrix]]\\r    <\\/div>\\r<\\/article>\\r[[$mxt.feature_featured_posts_page_industrix]]"}',
+              'guid' => '9e40436f55a0e1e4628025c5796b05e2',
+              'native_key' => NULL,
+              'signature' => 'e587de7bf3348c207543d98369d08a19',
+            ),
+            'a823d9458a4715cda80827a560b31364' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.page_body_sidebar_industrix","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<article class=\\"with--sidebar rs-left\\" itemscope itemtype=\\"http:\\/\\/schema.org\\/BlogPosting\\" aria-labelledby=\\"headline\\">\\r  \\t<header class=\\"container_inner bg-dark-secondary\\">\\r        <h1 itemprop=\\"headline\\" id=\\"headline\\" class=\\"accent-primary\\">[[*longtitle:default=`[[*pagetitle]]`]]<\\/h1>\\r        <p class=\\"white\\"><em><time itemprop=\\"datePublished\\" datetime=\\"[[*publishedon:strtotime:date=`%Y-%m-%d`]]\\">[[*publishedon:strtotime:date=`%Y-%m-%d`]]<\\/time><\\/em><\\/p>\\r    <\\/header>\\r  \\t<div itemprop=\\"text\\" class=\\"container_inner\\">\\r  \\t    [[*content]]\\r    <\\/div>\\r<\\/article>\\r<aside class=\\"rs-right bg-accent-primary\\">\\r    [[$mxt.feature_featured_posts_aside_industrix]]\\r    [[$mxt.feature_listallbyparent_aside_industrix]]\\r    [[$mxt.feature_listbyid_aside_industrix]]\\r    [[!$mxt.feature_carousel_aside_industrix]]\\r<\\/aside>","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<article class=\\"with--sidebar rs-left\\" itemscope itemtype=\\"http:\\/\\/schema.org\\/BlogPosting\\" aria-labelledby=\\"headline\\">\\r  \\t<header class=\\"container_inner bg-dark-secondary\\">\\r        <h1 itemprop=\\"headline\\" id=\\"headline\\" class=\\"accent-primary\\">[[*longtitle:default=`[[*pagetitle]]`]]<\\/h1>\\r        <p class=\\"white\\"><em><time itemprop=\\"datePublished\\" datetime=\\"[[*publishedon:strtotime:date=`%Y-%m-%d`]]\\">[[*publishedon:strtotime:date=`%Y-%m-%d`]]<\\/time><\\/em><\\/p>\\r    <\\/header>\\r  \\t<div itemprop=\\"text\\" class=\\"container_inner\\">\\r  \\t    [[*content]]\\r    <\\/div>\\r<\\/article>\\r<aside class=\\"rs-right bg-accent-primary\\">\\r    [[$mxt.feature_featured_posts_aside_industrix]]\\r    [[$mxt.feature_listallbyparent_aside_industrix]]\\r    [[$mxt.feature_listbyid_aside_industrix]]\\r    [[!$mxt.feature_carousel_aside_industrix]]\\r<\\/aside>"}',
+              'guid' => 'a3d1360ec8bdbb875a246c013c7a2895',
+              'native_key' => NULL,
+              'signature' => 'cb8647b7e192cb4fd5603ad3897f7da6',
+            ),
+            '2c7221363230aec2b7162587df858f0f' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.page_content_industrix","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[$mxt.feature_hero_industrix]]\\r[[$mxt.feature_slider_industrix]]\\r<main role=\\"main\\" class=\\"container\\">\\r    \\r    [[[[*body_tpl:is=`blank`:then=``:else=`-`]]$mxt.page_body_blank_industrix]]\\r    [[[[*body_tpl:is=`page`:then=``:else=`-`]]!$mxt.page_body_page_industrix]]\\r    [[[[*body_tpl:is=`sidebar`:then=``:else=`-`]]!$mxt.page_body_sidebar_industrix]]\\r     \\r<\\/main>","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[$mxt.feature_hero_industrix]]\\r[[$mxt.feature_slider_industrix]]\\r<main role=\\"main\\" class=\\"container\\">\\r    \\r    [[[[*body_tpl:is=`blank`:then=``:else=`-`]]$mxt.page_body_blank_industrix]]\\r    [[[[*body_tpl:is=`page`:then=``:else=`-`]]!$mxt.page_body_page_industrix]]\\r    [[[[*body_tpl:is=`sidebar`:then=``:else=`-`]]!$mxt.page_body_sidebar_industrix]]\\r     \\r<\\/main>"}',
+              'guid' => 'c99d559d04fdff5bbb84defcdf1ee53d',
+              'native_key' => NULL,
+              'signature' => '360726e83297e59ad9142e2eef4179c6',
+            ),
+            '416aab5177a60b7103c6340d718096a1' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.page_end_industrix","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[$mxt.global_end_industrix]]","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[$mxt.global_end_industrix]]"}',
+              'guid' => '261ec16104a3d4354c0ddd52042ebe27',
+              'native_key' => NULL,
+              'signature' => '384764952216b8729448c03952133eb8',
+            ),
+            '447e00bc9eaacb8ccbe8c38aae4ea2a9' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.page_footer_industrix","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[$mxt.global_footer_industrix]]","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[$mxt.global_footer_industrix]]"}',
+              'guid' => '8f61f1588c1219809cdfbca216ec5835',
+              'native_key' => NULL,
+              'signature' => '9347f5b3367528db170f5b5fa0775de6',
+            ),
+            '485c60c7a324aa579564568ed0c2bf22' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.page_header_industrix","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[$mxt.global_header_industrix]]","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[$mxt.global_header_industrix]]"}',
+              'guid' => 'f03fa884e0adc45b05c911aa1e97d88f',
+              'native_key' => NULL,
+              'signature' => '1e2a27a546c3a2563cf7cbf06d12dd77',
+            ),
+            '6d69fd37d78a6f350791eb46a8ef63f0' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.page_start_industrix","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[$mxt.global_start_industrix]]","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[$mxt.global_start_industrix]]"}',
+              'guid' => '4e90075959cb0a7f3194b5994f143d11',
+              'native_key' => NULL,
+              'signature' => 'ad214cae021e20a2f6fb5921949436ea',
+            ),
+          ),
+        ),
+      ),
+      '6e175992c6bd2c4cc8e03a93f0b884a5' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 
+        array (
+          0 => 'parent',
+          1 => 'category',
+        ),
+        'class' => 'modCategory',
+        'object' => '{"id":null,"parent":0,"category":"TPLs","rank":0}',
+        'guid' => '15a85248e2a88675618016934d46dae3',
+        'native_key' => NULL,
+        'signature' => '660a2f8f5d5dc71a697130993b94eaac',
+        'related_objects' => 
+        array (
+          'Chunks' => 
+          array (
+            'f603f363310658faa11954af1172ec3e' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"tpl.contactEmailTpl_industrix","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"Name: [[+name]]<br>\\rEmail: [[+email]]<br>\\rPhone: [[+phone]]<br>\\r<br>\\rMessage:\\r[[+text]]","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"Name: [[+name]]<br>\\rEmail: [[+email]]<br>\\rPhone: [[+phone]]<br>\\r<br>\\rMessage:\\r[[+text]]"}',
+              'guid' => '205dc0c6997a3517a76cfc0ef2e03ad5',
+              'native_key' => NULL,
+              'signature' => 'f68bd3ed2480135a837592b69d89c08e',
+            ),
+            '77b23eca736e1de9abcc31cb052cabad' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"tpl.feature_carousel_aside_industrix","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<div class=\\"aside--carousel bg-neutral-primary\\">\\r    <div class=\\"p1\\">\\r        <h3 class=\\"secondary-font\\">[[+longtitle:default=`[[+pagetitle]]`]]<\\/h3>\\r        [[+content]]\\r    <\\/div>    \\r<\\/div>","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<div class=\\"aside--carousel bg-neutral-primary\\">\\r    <div class=\\"p1\\">\\r        <h3 class=\\"secondary-font\\">[[+longtitle:default=`[[+pagetitle]]`]]<\\/h3>\\r        [[+content]]\\r    <\\/div>    \\r<\\/div>"}',
+              'guid' => '297c082a5cb8c34497f486b1e1ce46f2',
+              'native_key' => NULL,
+              'signature' => 'e7370989ade7c6ea88e54f68fcca2e32',
+            ),
+            'fe6d5097698d04a2f36f1a8cea17aa98' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"tpl.feature_gallery_industrix","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<div class=\\"mp-5 js-gallery-modal\\" data-target=\\"galleryModal\\" data-large=\\"[[+image_absolute:phpthumbof=`w=2000&zc=1`]]\\" style=\\"background-image: url([[+image_absolute:phpthumbof=`w=500&h=500&zc=1`]]);\\"><\\/div>","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<div class=\\"mp-5 js-gallery-modal\\" data-target=\\"galleryModal\\" data-large=\\"[[+image_absolute:phpthumbof=`w=2000&zc=1`]]\\" style=\\"background-image: url([[+image_absolute:phpthumbof=`w=500&h=500&zc=1`]]);\\"><\\/div>"}',
+              'guid' => '739fd8ce066dd7dbbd9d932846db6622',
+              'native_key' => NULL,
+              'signature' => '2dc9c88a531cfdf15f5efecdf67dc1e5',
+            ),
+            'bbb8e9aa0c49894e5960b0e2235266ae' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"tpl.feature_slider_industrix","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<div id=\\"slide[[+idx]]\\"><img src=\\"[[+image_absolute:phpthumbof=`w=960&h=400&zc=1`]]\\" [[+idx:is=`0`:then=`class=\\"d-r-s-slide-img\\"`]] alt=\\"[[+name]]\\"><\\/div>","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<div id=\\"slide[[+idx]]\\"><img src=\\"[[+image_absolute:phpthumbof=`w=960&h=400&zc=1`]]\\" [[+idx:is=`0`:then=`class=\\"d-r-s-slide-img\\"`]] alt=\\"[[+name]]\\"><\\/div>"}',
+              'guid' => '10d6c15f8eef73939d9022016eb1acff',
+              'native_key' => NULL,
+              'signature' => 'dd35eac1ee29e060bf1b946e3d24adc6',
+            ),
+            'd919a584ebb7466bac7acb8811cb6579' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"tpl.feature_slider_listing_industrix","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<div id=\\"slide[[+idx]]\\"><a href=\\"[[~[[+id]]]]\\" title=\\"[[+pagetitle]]\\">[[+menutitle:default=`[[+pagetitle]]`]]<\\/a><img src=\\"[[+tv.page_img:notempty=`[[+tv.page_img:phpthumbof=`w=960&h=400&zc=1`]]`:default=`[[++industrix_default_img:phpthumbof=`w=960&h=400&zc=1`]]`]]\\" alt=\\"[[+pagetitle]]\\" [[+idx:is=`1`:then=`class=\\"d-r-s-slide-img\\"`]]><\\/div>","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<div id=\\"slide[[+idx]]\\"><a href=\\"[[~[[+id]]]]\\" title=\\"[[+pagetitle]]\\">[[+menutitle:default=`[[+pagetitle]]`]]<\\/a><img src=\\"[[+tv.page_img:notempty=`[[+tv.page_img:phpthumbof=`w=960&h=400&zc=1`]]`:default=`[[++industrix_default_img:phpthumbof=`w=960&h=400&zc=1`]]`]]\\" alt=\\"[[+pagetitle]]\\" [[+idx:is=`1`:then=`class=\\"d-r-s-slide-img\\"`]]><\\/div>"}',
+              'guid' => '817f4b21ce229369caf12e7bc614e9bf',
+              'native_key' => NULL,
+              'signature' => '7084d3cb9790295c81c834e51adbb3b0',
+            ),
+            '38e2b3579a1d093d8018779fb22486ea' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"tpl.featured_posts_aside_industrix","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<div class=\\"aside--feature clearfix\\">\\r    [[+tv.page_img:notempty=`<img src=\\"[[+tv.page_img:phpthumbof=`w=700&zc=1`]]\\" alt=\\"[[+menutitle:default=`[[+pagetitle]]`]]\\" class=\\"fit\\">`]]\\r    <h3 class=\\"secondary-font\\"><a href=\\"[[~[[+id]]]]\\" class=\\"white\\">[[+menutitle:default=`[[+pagetitle]]`]]<\\/a><\\/h3>\\r    <p class=\\"small\\">[[+description]]<\\/p>\\r<\\/div>\\r","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<div class=\\"aside--feature clearfix\\">\\r    [[+tv.page_img:notempty=`<img src=\\"[[+tv.page_img:phpthumbof=`w=700&zc=1`]]\\" alt=\\"[[+menutitle:default=`[[+pagetitle]]`]]\\" class=\\"fit\\">`]]\\r    <h3 class=\\"secondary-font\\"><a href=\\"[[~[[+id]]]]\\" class=\\"white\\">[[+menutitle:default=`[[+pagetitle]]`]]<\\/a><\\/h3>\\r    <p class=\\"small\\">[[+description]]<\\/p>\\r<\\/div>\\r"}',
+              'guid' => '9189d57cb2744bb66a5c7d35ca500472',
+              'native_key' => NULL,
+              'signature' => 'c538be7dc595ee36f99c21e8cf3a8658',
+            ),
+            '1b7f89f61fdfef6c864670b344178719' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"tpl.featured_posts_grid_industrix","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<div class=\\"mp-3 dark-pattern\\" [[+tv.page_img:notempty=`style=\\"background-image: url([[+tv.page_img:phpthumbof=`w=700&zc=1`]]);\\"`]]>\\r<div class=\\"mp-enlarge\\">\\r<div class=\\"mp-icon\\">\\r    <a href=\\"[[~[[+id]]]]\\" class=\\"fade-ease\\"><i class=\\"fade-ease fa [[+tv.page_icon:default=`fa-chain`]]\\"><\\/i><\\/a>\\r<\\/div>\\r<div class=\\"mp-title fade-ease\\">\\r    <h3 class=\\"secondary-font\\"><a href=\\"[[~[[+id]]]]\\">[[+menutitle:default=`[[+pagetitle]]`]]<\\/a><\\/h3>\\r<\\/div>\\r<\\/div>\\r<\\/div>","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<div class=\\"mp-3 dark-pattern\\" [[+tv.page_img:notempty=`style=\\"background-image: url([[+tv.page_img:phpthumbof=`w=700&zc=1`]]);\\"`]]>\\r<div class=\\"mp-enlarge\\">\\r<div class=\\"mp-icon\\">\\r    <a href=\\"[[~[[+id]]]]\\" class=\\"fade-ease\\"><i class=\\"fade-ease fa [[+tv.page_icon:default=`fa-chain`]]\\"><\\/i><\\/a>\\r<\\/div>\\r<div class=\\"mp-title fade-ease\\">\\r    <h3 class=\\"secondary-font\\"><a href=\\"[[~[[+id]]]]\\">[[+menutitle:default=`[[+pagetitle]]`]]<\\/a><\\/h3>\\r<\\/div>\\r<\\/div>\\r<\\/div>"}',
+              'guid' => '6b55ce7186c831e26fc805252b7f5b07',
+              'native_key' => NULL,
+              'signature' => '17ba25fe2f69527e670d6545e4c805ab',
+            ),
+            'df03016bc8cada5a0565b87d6ad658b1' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"tpl.featured_posts_page_industrix","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<div class=\\"page--feature clearfix\\">\\r<div class=\\"rs-left\\">\\r    [[+tv.page_img:notempty=`<a href=\\"[[~[[+id]]]]\\"><img src=\\"[[+tv.page_img:phpthumbof=`w=300&zc=1`]]\\" alt=\\"[[+menutitle:default=`[[+pagetitle]]`]]\\" class=\\"fit\\"><\\/a>`]]\\r<\\/div>\\r<div class=\\"rs-right\\">\\r    <h3 class=\\"secondary-font\\"><a href=\\"[[~[[+id]]]]\\">[[+menutitle:default=`[[+pagetitle]]`]]<\\/a><\\/h3>\\r    <p class=\\"white\\">[[+description]]<\\/p>\\r<\\/div>\\r<\\/div>","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<div class=\\"page--feature clearfix\\">\\r<div class=\\"rs-left\\">\\r    [[+tv.page_img:notempty=`<a href=\\"[[~[[+id]]]]\\"><img src=\\"[[+tv.page_img:phpthumbof=`w=300&zc=1`]]\\" alt=\\"[[+menutitle:default=`[[+pagetitle]]`]]\\" class=\\"fit\\"><\\/a>`]]\\r<\\/div>\\r<div class=\\"rs-right\\">\\r    <h3 class=\\"secondary-font\\"><a href=\\"[[~[[+id]]]]\\">[[+menutitle:default=`[[+pagetitle]]`]]<\\/a><\\/h3>\\r    <p class=\\"white\\">[[+description]]<\\/p>\\r<\\/div>\\r<\\/div>"}',
+              'guid' => '34a48eea5d90540424d78e7eb2a79570',
+              'native_key' => NULL,
+              'signature' => '78382438c0c858554452a505d0150700',
+            ),
+            '85257dcbefb0ec1ca0350238ae1309f5' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"tpl.listbyparent_aside_industrix","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<li>\\r<i class=\\"fa [[+tv.page_icon:default=`fa-chain`]]\\"><\\/i> <a href=\\"[[~[[+id]]]]\\" title=\\"[[+pagetitle]]\\">[[+menutitle:default=`[[+pagetitle]]`]]<\\/a>\\r<\\/li>","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<li>\\r<i class=\\"fa [[+tv.page_icon:default=`fa-chain`]]\\"><\\/i> <a href=\\"[[~[[+id]]]]\\" title=\\"[[+pagetitle]]\\">[[+menutitle:default=`[[+pagetitle]]`]]<\\/a>\\r<\\/li>"}',
+              'guid' => '4a86485f1d918bac0863468d29a6a507',
+              'native_key' => NULL,
+              'signature' => '4678c40622599d881c222f4a329e19a8',
+            ),
+            'fcf5638714306b204f4cb0f6ef26829e' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"tpl.listbyparent_grid_industrix","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<div class=\\"mp-4 dark-pattern\\" [[+tv.page_img:notempty=`style=\\"background-image: url([[+tv.page_img:phpthumbof=`w=700&zc=1`]]);\\"`]]>\\r<div class=\\"mp-enlarge\\">\\r<div class=\\"mp-icon\\">\\r    <a href=\\"[[~[[+id]]]]\\" class=\\"fade-ease\\"><i class=\\"fade-ease fa [[+tv.page_icon:default=`fa-chain`]]\\"><\\/i><\\/a>\\r<\\/div>\\r<div class=\\"mp-title fade-ease\\">\\r    <h3 class=\\"secondary-font\\"><a href=\\"[[~[[+id]]]]\\">[[+menutitle:default=`[[+pagetitle]]`]]<\\/a><\\/h3>\\r<\\/div>\\r<\\/div>\\r<\\/div>","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<div class=\\"mp-4 dark-pattern\\" [[+tv.page_img:notempty=`style=\\"background-image: url([[+tv.page_img:phpthumbof=`w=700&zc=1`]]);\\"`]]>\\r<div class=\\"mp-enlarge\\">\\r<div class=\\"mp-icon\\">\\r    <a href=\\"[[~[[+id]]]]\\" class=\\"fade-ease\\"><i class=\\"fade-ease fa [[+tv.page_icon:default=`fa-chain`]]\\"><\\/i><\\/a>\\r<\\/div>\\r<div class=\\"mp-title fade-ease\\">\\r    <h3 class=\\"secondary-font\\"><a href=\\"[[~[[+id]]]]\\">[[+menutitle:default=`[[+pagetitle]]`]]<\\/a><\\/h3>\\r<\\/div>\\r<\\/div>\\r<\\/div>"}',
+              'guid' => '0539e801cc8408ec6139a4bdefe34887',
+              'native_key' => NULL,
+              'signature' => '0eae224d95d0269e44069d53082a9018',
+            ),
+            '07f77a9ebadc86a978a1d2d5b658f467' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"tpl.listbyparent_listing_industrix","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<div class=\\"listing--row clearfix\\">\\r<div class=\\"rs-left\\">\\r    <a href=\\"[[~[[+id]]]]\\"><img src=\\"[[+tv.page_img:notempty=`[[+tv.page_img:phpthumbof=`w=300&zc=1`]]`:default=`[[++industrix_default_img:phpthumbof=`w=300&zc=1`]]`]]\\" alt=\\"[[+menutitle:default=`[[+pagetitle]]`]]\\" class=\\"fit\\"><\\/a>\\r<\\/div>\\r<div class=\\"rs-right\\">\\r    <h3 class=\\"secondary-font\\"><a href=\\"[[~[[+id]]]]\\">[[+menutitle:default=`[[+pagetitle]]`]]<\\/a><\\/h3>\\r    <p class=\\"neutral-primary\\"><em>[[+description]]<\\/em><\\/p>\\r    <br>\\r    <p class=\\"white\\">[[+content:strip:strip_tags:ellipsis=`200`]]<\\/p>\\r<\\/div>\\r<\\/div>","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<div class=\\"listing--row clearfix\\">\\r<div class=\\"rs-left\\">\\r    <a href=\\"[[~[[+id]]]]\\"><img src=\\"[[+tv.page_img:notempty=`[[+tv.page_img:phpthumbof=`w=300&zc=1`]]`:default=`[[++industrix_default_img:phpthumbof=`w=300&zc=1`]]`]]\\" alt=\\"[[+menutitle:default=`[[+pagetitle]]`]]\\" class=\\"fit\\"><\\/a>\\r<\\/div>\\r<div class=\\"rs-right\\">\\r    <h3 class=\\"secondary-font\\"><a href=\\"[[~[[+id]]]]\\">[[+menutitle:default=`[[+pagetitle]]`]]<\\/a><\\/h3>\\r    <p class=\\"neutral-primary\\"><em>[[+description]]<\\/em><\\/p>\\r    <br>\\r    <p class=\\"white\\">[[+content:strip:strip_tags:ellipsis=`200`]]<\\/p>\\r<\\/div>\\r<\\/div>"}',
+              'guid' => '4177938d3c552a9bd46b6a9c4eb67fe5',
+              'native_key' => NULL,
+              'signature' => '30f8a7fb64a35bb2788e0108fa19a60c',
+            ),
+            '8a96fbe4f491fb35ad677aa1550069c1' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"tpl.listbyparent_page_industrix","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<div class=\\"page-listing-cell rs-left\\">\\r[[+tv.page_img:notempty=`<div style=\\"height:5rem; width:100%; background-size:cover; background-image: url([[+tv.page_img:phpthumbof=`w=600&zc=1`]]);\\"><\\/div>`:default=`<i class=\\"fa [[+tv.page_icon:default=`fa-chain`]] white bg-neutral-secondary\\"><\\/i>`]]    \\r\\r<h3><a href=\\"[[~[[+id]]]]\\" title=\\"[[+pagetitle]]\\">[[+menutitle:default=`[[+pagetitle]]`]]<\\/a><\\/h3>\\r<p>[[+description]]<\\/p>\\r<\\/div>","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<div class=\\"page-listing-cell rs-left\\">\\r[[+tv.page_img:notempty=`<div style=\\"height:5rem; width:100%; background-size:cover; background-image: url([[+tv.page_img:phpthumbof=`w=600&zc=1`]]);\\"><\\/div>`:default=`<i class=\\"fa [[+tv.page_icon:default=`fa-chain`]] white bg-neutral-secondary\\"><\\/i>`]]    \\r\\r<h3><a href=\\"[[~[[+id]]]]\\" title=\\"[[+pagetitle]]\\">[[+menutitle:default=`[[+pagetitle]]`]]<\\/a><\\/h3>\\r<p>[[+description]]<\\/p>\\r<\\/div>"}',
+              'guid' => '3d78b4c55efff511784ce943164409e7',
+              'native_key' => NULL,
+              'signature' => 'f01ed3e819d4420a99ecaee48a7d0126',
+            ),
+            'd461942a4251d1291c183cd91f0c7d8e' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"tpl.nav_row_child_industrix","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<li role=\\"menuitem\\"><a href=\\"[[~[[+id]]]]\\" title=\\"[[+pagetitle]]\\">[[+menutitle:default=`[[+pagetitle]]`]]<\\/a><\\/li>","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<li role=\\"menuitem\\"><a href=\\"[[~[[+id]]]]\\" title=\\"[[+pagetitle]]\\">[[+menutitle:default=`[[+pagetitle]]`]]<\\/a><\\/li>"}',
+              'guid' => 'aac2ed05ce660351ff544c7d4bcd3efe',
+              'native_key' => NULL,
+              'signature' => '1466e63a7b3967252559b4c07bad0dce',
+            ),
+            '1495cec362a8825133584b5b51df34d5' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"tpl.nav_row_industrix","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<li role=\\"menuitem\\"><a href=\\"[[~[[+id]]]]\\" title=\\"[[+pagetitle]]\\">[[+menutitle:default=`[[+pagetitle]]`]]<\\/a>[[getResources? &parents=`[[+id]]` &tpl=`tpl.nav_row_child_industrix` &sortby=`menuindex` &sortdir=`ASC` &limit=`0` &depth=`0` &toPlaceholder=`children`]][[+children:notempty=`<button class=\\"nav-more-icon\\" id=\\"navMore[[+id]]\\" onclick=\\"clickToggle(\'navMore[[+id]]\')\\"><i class=\\"fa fa-arrow-circle-o-down\\"><\\/i><\\/button><ul>[[+children]]<\\/ul>`]]<\\/li>\\r","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<li role=\\"menuitem\\"><a href=\\"[[~[[+id]]]]\\" title=\\"[[+pagetitle]]\\">[[+menutitle:default=`[[+pagetitle]]`]]<\\/a>[[getResources? &parents=`[[+id]]` &tpl=`tpl.nav_row_child_industrix` &sortby=`menuindex` &sortdir=`ASC` &limit=`0` &depth=`0` &toPlaceholder=`children`]][[+children:notempty=`<button class=\\"nav-more-icon\\" id=\\"navMore[[+id]]\\" onclick=\\"clickToggle(\'navMore[[+id]]\')\\"><i class=\\"fa fa-arrow-circle-o-down\\"><\\/i><\\/button><ul>[[+children]]<\\/ul>`]]<\\/li>\\r"}',
+              'guid' => 'bb3ff399d46eb6627fc79d27ab92abdf',
+              'native_key' => NULL,
+              'signature' => '4859d5aa31022916b99480fa23d37c3b',
+            ),
+          ),
+        ),
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Children' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'parent',
+        1 => 'category',
+      ),
+    ),
+    'Snippets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Chunks' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Templates' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'templatename',
+    ),
+    'TemplateVars' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Plugins' => 
+    array (
+      'unique_key' => 'name',
+      'preserve_keys' => false,
+      'update_object' => true,
+      'related_objects' => true,
+      'related_object_attributes' => 
+      array (
+        'PluginEvents' => 
+        array (
+          'preserve_keys' => true,
+          'update_object' => false,
+          'unique_key' => 
+          array (
+            0 => 'pluginid',
+            1 => 'event',
+          ),
+        ),
+      ),
+    ),
+  ),
+  'namespace' => 'industrix-theme',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"industrix-theme-1.0.0-pl\\/modCategory\\/eac235c0e4fbcfefbef6224239fb5ebf.sample_content.resolver","type":"php","name":"sample_content"}',
+    ),
+    1 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"industrix-theme-1.0.0-pl\\/modCategory\\/eac235c0e4fbcfefbef6224239fb5ebf\\/1\\/","target":"return MODX_ASSETS_PATH . \'components\\/\';","name":"industrix-theme"}',
+    ),
+    2 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"industrix-theme-1.0.0-pl\\/modCategory\\/eac235c0e4fbcfefbef6224239fb5ebf\\/2\\/","target":"return MODX_CORE_PATH . \'components\\/\';","name":"industrix-theme"}',
+    ),
+    3 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"industrix-theme-1.0.0-pl\\/modCategory\\/eac235c0e4fbcfefbef6224239fb5ebf.gpm.resolve.resources.resolver","type":"php","name":"gpm.resolve.resources"}',
+    ),
+    4 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"industrix-theme-1.0.0-pl\\/modCategory\\/eac235c0e4fbcfefbef6224239fb5ebf.sample_settings.resolver","type":"php","name":"sample_settings"}',
+    ),
+    5 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"industrix-theme-1.0.0-pl\\/modCategory\\/eac235c0e4fbcfefbef6224239fb5ebf.config.resolver","type":"php","name":"config"}',
+    ),
+  ),
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'ec9a4c7c2b3f0b040123fea04431a409',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => 'eac235c0e4fbcfefbef6224239fb5ebf',
+  'native_key' => NULL,
+  'object' => '{"id":null,"parent":0,"category":"Industrix Theme","rank":0}',
+);

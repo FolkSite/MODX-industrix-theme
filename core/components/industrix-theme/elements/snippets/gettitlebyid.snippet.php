@@ -1,0 +1,1 @@
+<?php//Usage://[[!GetTitleById? &id=`[[*listbyparent]]`]]$output = ''; $parentId = $modx->getOption('id', $scriptProperties);; /* Get the parent object */$parentObj = $modx->getObject('modResource', $parentId); /* If we have the parent,   get and return the pagetitle */ if ($parentObj) {    $output = $parentObj->get('pagetitle');} return $output;

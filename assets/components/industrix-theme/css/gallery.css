@@ -1,0 +1,31 @@
+.gallery--container p{padding:0 1rem 1rem 1rem; color: #FFF;}
+.gallery--container .mp-5{min-height:8rem;background-size:cover;cursor:pointer;}
+
+.modal-bg{
+	display: none;
+	position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+    background: rgba(0,0,0,0.5);
+}
+
+.modal{
+	height: 100%;
+	position:absolute;
+	top:0;right:0;bottom:0;left:0;z-index:9999;
+	display:none;
+	overflow:scroll;
+	overflow-scrolling:touch;
+	outline:0;
+}
+
+.modal-dialog{
+    width:80%;
+    margin:2rem auto;
+    text-align: center;
+    padding:.25rem;
+    background-color: rgba(0,0,0,0.8);
+}    
+.modal-footer .form-button{display:inline-block;}
